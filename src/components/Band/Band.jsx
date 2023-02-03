@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 export default function Band(props) {
-    return (
-        <div>
-            <h1>{props.name}{props.year}</h1>
-        </div>
-    )
+  return (
+    <div>
+      <h1>
+        {props.name} - {props.year}
+      </h1>
+    </div>
+  );
 }
